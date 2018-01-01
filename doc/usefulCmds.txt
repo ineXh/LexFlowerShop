@@ -1,0 +1,3 @@
+npm run dev
+./node_modules/.bin/webpack -d --watch
+python -m SimpleHTTPServer 8000

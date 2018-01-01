@@ -1,0 +1,89 @@
+body{
+	background: #FFEA2A;
+
+
+}
+#chatwindow {
+    position: absolute;
+    width: 30%; height: 60%;
+    right: 2.5%; bottom: 10%;
+    box-shadow: rgba(0,0,0,0.6) 0px 0px 8px;
+    border: 2px solid #6898DD;
+    border-radius:5%;
+    overflow: hidden;
+    background:#222;
+    /*padding-right: 5px;
+    padding-left: 5px;*/
+
+}
+#chatmonitor {
+    height: 85%;
+    background:#ddd;
+    border-radius:5%;
+    overflow-y: auto;
+    border:1px solid #CCC;
+    background: #2C3E50;
+    font-size: 14px;
+    font-weight: bold;
+    margin: auto;
+    width: 95%;
+    margin-top: 2.5%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+#chatmonitor::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#chatmonitor::-webkit-scrollbar
+{
+	border-radius: 10px;
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#chatmonitor::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+#chatinput {
+  border: 5px solid #6084B0;
+  bottom: 1.5%;
+  height: 48px;
+  outline: none;
+  position: absolute;
+  border-radius:5%;
+
+  margin: 1.25%;
+  width: 97.5%;
+  /*padding-left: 5px;
+  /*position:relative;*/
+}
+#chatbutton{
+	position:absolute;
+	bottom: 2.5%;
+	right: 5%;
+	cursor:pointer;
+	width: 64px;
+	height: 64px;
+	border: none;
+	outline:none;
+	background-size: 64px auto;
+	background: url(src/client/assets/chat.png);
+	float: left;
+	border-radius: 64px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+#chatbutton:hover{
+	box-shadow: inset -7px -7px 16px 0 rgba(0,0,0,0.24), 5px 6px 20px 0px rgba(42, 128, 156, 0.57);
+}

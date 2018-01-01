@@ -1,0 +1,49 @@
+#main {
+    height: 85%;
+    background: #2C3E50;
+    font-size: 14px;
+    font-weight: bold;
+    
+    margin: auto;
+    width: 35%;
+    margin-top: 2.5%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#userdiv {
+    /*background: aqua;*/
+    
+}
+#botdiv {
+    /*background: blue;*/
+    
+}
+.user{
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background: green;
+    color: white;
+    display: inline-block;
+    float:right;
+    clear:right;
+    margin: 15px 5px 0px auto;
+    border-bottom-right-radius: 0px;
+}
+
+.bot{
+    max-width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    background: white;
+    color: black;
+    display: inline-block;
+    float:left;
+    clear:left;
+    margin: 15px auto 0px 5px;
+    border-bottom-left-radius: 0px;
+    
+}
